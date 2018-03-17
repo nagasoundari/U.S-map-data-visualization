@@ -1,0 +1,97 @@
+
+/* On mouse hover, lighten state color */
+path:hover {
+    fill-opacity: .7;
+}
+
+/* Style for Custom Tooltip */
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: white;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+div.tooltipbox {
+    position: fixed;
+    text-align: center;
+    width: 400px;
+    height: 225px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: #FAFAD2;
+    border-style: double;
+    border-radius: 8px;
+    pointer-events: none;
+}
+/* Legend Font Style */
+body {
+    font: 11px sans-serif;
+}
+
+/* Legend Position Style */
+.legend {
+    position:absolute;
+    left:850px;
+    top:350px;
+}
+
+.Radiobuttons {
+    position: fixed;
+    left: 1100px;
+    height: auto;
+    top: 200px;
+}
+
+.Checkboxes {
+    position: fixed;
+    left: 1100px;
+    top: 325px;
+}
+
+.RadiobuttonsChoropleth{
+    position: fixed;
+    left: 1100px;
+    height: auto;
+    top: 100px;
+}
+
+.Dropdown {
+    position: fixed;
+    left: 1100px;
+    top: 475px;
+}
+
+#sliderContainer {
+    position: fixed;
+    left: 1100px;
+    height: auto;
+    top: 570px;
+}
+
+.state-label {
+    font-weight: 500;
+    text-transform: uppercase;
+    text-anchor: middle;
+    opacity: 0.3;
+    color: #000;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.333em;
+}
+
+label {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}

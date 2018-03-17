@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+    <script src="http://d3js.org/d3.v2.min.js?2.10.0"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+<h1>U.S. Election Results - 2016</h1>
+<div class = "Checkboxes" id = "check-select">
+    <label for = "check-select" id = "title"><b>Poverty Rate</b></label> <br/><br/>
+    <input type = "checkbox" id="one" value = "lessthan12">
+    <label for = "one">Less than 12 percent</label> <br/>
+
+    <input type = "checkbox" id = "two" value = "12and15">
+    <label for = "two">Between 12 and 15 percent </label> <br/>
+
+    <input type = "checkbox" id = "three" value = "15and18">
+    <label for = "three">Between 15 and 18 percent</label><br/>
+
+    <input type = "checkbox" id = "four" value = "morethan18">
+    <label for = "four">More than 18 percent</label>
+</div>
+
+<div class = "Radiobuttons" id = "winner-select">
+    <label id = "titleradio"><b>Political Parties(Majority)</b></label><br/><br/>
+    <input type="radio" id = "winnerone" name = "radioclic" value = "republican">
+    <label for = "winnerone">Republican</label> <br/>
+
+    <input type="radio" id = "winnertwo" name = "radioclic" value = "democratic">
+    <label for = "winnertwo">Democratic</label> <br/>
+
+    <input type="radio" id = "None" name = "radioclic" value = "none">
+    <label for = "None">None</label>
+</div>
+
+<div class = "RadiobuttonsChoropleth" id = "choro-select">
+    <label for = "choro-select"><b>Map Type</b> </label> <br/><br/>
+    <input type="radio" id = "USMap" name = "radioclic2" value = "usmap" checked>
+    <label for = "USMap">US Map</label> <br/>
+
+    <input type="radio" id = "choro" name = "radioclic2" value = "choropop">
+    <label for = "choro">US Population Map</label>
+</div>
+
+
+<div class = "Dropdown" id = "dropdown">
+    <label for = "dropdown"><b>Detailed Statistics</b></label> <br/><br/>
+    <label >Click on a state to Enable</label>
+    <select class="Dropselect" name="option" id = "dropdown-select">
+    <option value = "0">Choose your option</option>
+    <option value = "1">Age</option>
+    <option value = "2">Ethnicity/Race</option>
+    <option value = "3">Education</option>
+    <option value = "4">Household</option>
+</select>
+</div>
+
+<div id="sliderContainer">
+    <label for = "sliderContainer"><b>Per Capita Income</b> </label><br/><br/>
+    <input id="percapitaslide" name="slider" type="range" min="0" max="5" value="0" step="1"/><br/><br/>
+    <label> </label>
+    <label id="range">Change Slider for Per Capita Income</label>
+</div>
+
+
+</body>
+</html>

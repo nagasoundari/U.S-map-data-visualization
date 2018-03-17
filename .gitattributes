@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+
+This folder contains the code for the U.S population and census data visualization. This includes the data set, HTML, CSS, Javascript, Jquery and D3 code. A document that describes this project is also included.
