@@ -1,0 +1,3 @@
+This project is part of my MSIM coursework(Interactive Information Visualization). I was assigned to create an interactive visualization software for a dataset of my interest. I have chosen the U.S population dataset that includes the election results. 
+
+This folder contains the code for the U.S population and census data visualization. It includes the data set, HTML, CSS, Javascript, Jquery and D3 code. A document that describes this project is also included.
